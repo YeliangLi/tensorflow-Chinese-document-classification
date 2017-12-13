@@ -1,0 +1,5 @@
+SogouC.reduced/
+__pycache__/
+data/
+logs/
+model/
