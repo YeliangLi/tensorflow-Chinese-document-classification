@@ -14,7 +14,7 @@ Includes 9 types of news corpus such as finance, IT, health, sports, tourism, ed
 * jieba<br>
 * zhon
 ## Why This Project?
-[Hierarchical Attention Networks for Document Classification](http://www.aclweb.org/anthology/N16-1174) is a classic paper uses attention mechanism for document<br> classification.At present,open source code about Chinese document classification based on deep learning still less.So I<br> use the sogou news corpus and tensorflow to achieve a Chinese classifier.Fig 1 shows the training results and finally this<br> model achieves 0.806780 accuracy(as shown in Fig 2) in the test set.My [Chinese blog](http://blog.yeliangli.com/?p=41&preview=true) gives a code analysis of this project <br>and welcome to look up.
+[Hierarchical Attention Networks for Document Classification](http://www.aclweb.org/anthology/N16-1174) is a classic paper uses attention mechanism for document<br> classification.At present,open source code about Chinese document classification based on deep learning still less.So I<br> use the sogou news corpus and tensorflow to achieve a Chinese classifier.Fig1 shows the training results and finally this<br> model achieves 0.806780 accuracy(as shown in Fig2) in the test set.My [Chinese blog](http://blog.yeliangli.com/?p=41&preview=true) gives a code analysis of this project <br>and welcome to look up.
 ## How to get started?
 1. First you need to download the database and extract it to the code directory.<br>
 2. Command "python3 preprocess.py" used to generate TFRecords format files for training and testing.<br>
