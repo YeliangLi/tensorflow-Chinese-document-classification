@@ -1,7 +1,7 @@
 # Tensorflow Chinese Document Classification
 ## Preparation
 ### My Hardware
-4-core CPU, 16G memory, 64G SSD, 1 Titan Z graphics card (12G memory, two GPU)
+4-core CPU, 16G memory, 64G SSD, 1 Titan Z graphics card (12G display memory, two GPU)
 ### My OS
 Ubuntu 16.04.1
 ### Data Set
