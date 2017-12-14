@@ -128,7 +128,7 @@ class WordAttention():
             mask1 = tf.sequence_mask(sequence_length,sh[1])
             padding = tf.ones_like(scores) * self.score_mask_value
             alignments = tf.nn.softmax(tf.where(mask1,scores,padding))
-            #The sentences with a length of 0 in the text will be determine false.
+            #The sentences with a true length of 0 in the text will be determine false.
             mask2 = tf.tile(
                 tf.expand_dims(tf.cast(tf.sign(sequence_length),tf.bool),1),
                 [1,sh[1]]
