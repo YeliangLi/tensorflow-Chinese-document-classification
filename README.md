@@ -6,7 +6,7 @@
 Ubuntu 16.04.1
 ### Data Set
 [搜狗20061127新闻语料(包含分类)@百度盘](https://pan.baidu.com/s/1bnhXX6Z)<br> 
-Includes 9 types of news corpus such as finance, IT, health, sports, tourism, education, recruitment, culture and military.Each category has 1,990 texts.
+Includes 9 classes of news corpus such as finance, IT, health, sports, tourism, education, recruitment, culture and military.Each category has 1,990 texts.
 ### Requirements
 * numpy >= 1.12.1<br>
 * tensorflow 1.4.0<br>
